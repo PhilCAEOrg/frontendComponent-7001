@@ -40,7 +40,7 @@ var init = function() {
 
   };
 
-  client = new Las2peerWidgetLibrary("$Microservice_Url$/", iwcCallback, '*');
+  client = new Las2peerWidgetLibrary("$Microservice_Url$/service", iwcCallback, '*');
 
   $('#button_5b344').on('click', function() {
     //start parameter initiation
